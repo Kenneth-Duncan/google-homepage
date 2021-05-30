@@ -1,0 +1,130 @@
+#logo{
+    position: relative;
+    max-height: fit-content;
+    margin-top: 100px;
+}
+div.top{
+    padding: 6px;
+    min-width: auto;
+}
+div.top a{
+    text-decoration: none; color: #3c4043; padding: 0 5px; 
+}
+div.top a:hover, a:active { 
+    text-decoration: underline;}
+div.left{
+    display: inline-block;
+    padding: 0 5px;
+}
+div.right{
+    float: right;
+}
+body{
+    height: 100%;
+    color: #222;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+div.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.bottom{
+    display: block;
+    padding: 20px;
+}
+div.search{
+    border: 1px solid gray;
+    display: flex;
+    border-radius: 30px;
+    margin: 0 auto;
+    height:  30px;
+    max-width: 564px;
+}
+div.button1{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+div.button2{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+div.bottom2{
+    width: auto;
+    max-width: 600px;
+    position: relative;
+    margin: 0 auto;
+}
+div.center1{
+    display: flex;
+    padding-top: 15px;
+    align-content: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none; color: #3c4043; padding: 0 5px; 
+}
+div.button1:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+div.button2:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+div.search1{
+    flex: auto;
+    display: flex;
+    padding: 5px 8px 0 16px;
+}
+span.icon{
+    color: #9aa0a6;
+    fill: currentColor;
+    display: inline-block;
+    margin-top: 3px;
+    height: 20px;
+    width: 20px;
+    }
+div.search2{
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+div.search3{
+    margin: auto;
+}
